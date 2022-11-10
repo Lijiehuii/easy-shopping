@@ -9,6 +9,7 @@ import {
 
 uni.$http = $http
 
+
 $http.baseUrl = 'https://api-hmugo-web.itheima.net'
 
 // 请求拦截器

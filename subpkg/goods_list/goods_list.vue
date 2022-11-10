@@ -26,8 +26,6 @@
 		onLoad(options) {
 			this.queryObj.query = options.query || ''
 			this.queryObj.cid = options.cid || ''
-			console.log("this.queryObj.query=>", this.queryObj.query);
-			console.log("this.queryObj.cid=>", this.queryObj.cid);
 			this.getGoodsList()
 		},
 		methods: {
