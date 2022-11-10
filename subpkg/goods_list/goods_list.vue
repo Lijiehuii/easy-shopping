@@ -14,7 +14,7 @@
 			return {
 				queryObj: {
 					query: "",
-					cat_id: "",
+					cid: "",
 					pagenum: 1,
 					pagesize: 10
 				},
@@ -25,7 +25,7 @@
 		},
 		onLoad(options) {
 			this.queryObj.query = options.query || ''
-			this.queryObj.cat_id = options.cid || ''
+			this.queryObj.cid = options.cid || ''
 			console.log("this.queryObj.query=>", this.queryObj.query);
 			console.log("this.queryObj.cid=>", this.queryObj.cid);
 			this.getGoodsList()
